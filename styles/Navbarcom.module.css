@@ -1,0 +1,89 @@
+.header{
+    border-bottom: 1px solid #E9E9E9;
+}
+
+.navBar{
+    border-top: 1px solid #E9E9E9;
+    border-width: 100% !important;
+    width: 100%;
+}
+
+.navBar a{
+    color: #00263C;
+    margin-left: 15px;
+    font-size: 17px;
+}
+.navBar a.navLogo{
+    font-weight: 700;
+}
+
+.navBar a:hover{
+    color: #00263C;
+
+}
+
+.lang{
+    color: #1B3C94;
+    font-size: 16px;
+    font-weight: 500px;
+    display: flex;
+    gap: 10px;
+    justify-content: flex-end;
+}
+
+.iconBtn{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
+
+.btnNav{
+    min-width: fit-content;
+    background-color: #1B3C94;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    border-radius: 20px;
+    font-size: 16px;
+    font-weight: 500;
+    outline: none;
+    border: none;
+    padding: 10px;
+}
+
+.btnNav i{
+    font-size: 20px;
+}
+
+.iconBtn i:last-child{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #FE821E;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.speed{
+    color: #FE821E;
+    font-size: 40px;
+}
+.avatar{
+    color: #fff;
+    font-size: 30px;
+}
+
+
+.dropDown{
+    border: none;
+    transition: .5s;
+}
+
+.dropDown option{
+    padding: 10px;
+}
+

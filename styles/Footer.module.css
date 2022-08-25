@@ -1,0 +1,86 @@
+.footer{
+
+}
+
+.footerTop{
+    background-color: #1B3C94;
+}
+
+.footerTop .container{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+
+
+li.active{
+    font-size: 17px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+.footerBotm{
+    background-color: #FE821E;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-size: 17px;
+    font-weight: 400;
+}
+.uae,
+.quickLinks,
+.company,
+.followUs {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.icons{
+    display: flex;
+    gap: 30px;
+}
+
+.icons i{
+    background-color: #FE821E;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+}
+
+.btns{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.btns button{
+    border: none;
+    display: flex;
+    align-items: center;
+    padding: 0 5px;
+    gap: 10px;
+    outline: none;
+    background-color: #fff;
+    border-radius: 10px;
+    
+}
+
+.btns button small{
+    font-size: 10px;
+}
+.btns button p{
+    font-size: 15px;
+    margin-top: -7px;
+}
+
+.btns button i{
+    color: #FE821E;
+    font-size: 25px;
+}
